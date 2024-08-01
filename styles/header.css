@@ -1,3 +1,77 @@
 header{
     background-image: url(../assets/images/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 94px;
+
 }
+
+header #content{
+    width: 1040px;
+    
+    
+}
+
+header .txt-header{
+    text-align: center;
+    padding-inline: 120px;
+    padding-block: 56px 80px;
+}
+
+header .txt-header span{
+        color: var(--red);
+    }
+
+
+header #profile{
+    display: flex;
+    justify-content: center;
+}
+
+header #profile img{
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    border: solid 3px var(--red);
+}
+
+header .buttons-header{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+header .buttons-header button{
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 20px;
+
+
+    img{
+        width: 24px;
+        height: 24px;
+        
+    }
+    
+}
+
+header .buttons-header button:hover{
+    color: var(--blue);
+}
+
+#scroll{
+    padding-top: 94px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+

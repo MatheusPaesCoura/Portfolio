@@ -13,22 +13,151 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,700&family=Inconsolata&family=Maven+Pro&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header class="container">
-        <div>
-            <img src="./assets/images/perfil.jpg" alt="Foto do usuário">
-        </div>
+    <header class=".container">
+        <div id="content">
+            <div id="profile">
+                <img src="./assets/images/perfil.jpg" alt="Foto do usuário">
+            </div>
 
-        <div class="txt-header">
-            <h2>
-                Hello World! Meu nome é Matheus Paes e sou
-            </h2>
-            <h1>
-                Desenvolverdor Fullstack
-            </h1>
-            <p>
-                Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
-            </p>
+            <div class="txt-header">
+                <h2 class="font-subtitle">
+                    Hello World! Meu nome é <span>Matheus Paes</span> e sou
+                </h2>
+                <h1 class="font-h1">
+                    Desenvolverdor Fullstack
+                </h1>
+                <p class="font-txt-sm">
+                    Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+                </p>
+            </div>
+
+            <div class="buttons-header">
+                <button class="font-button"> <img src="./assets/icons/GitHub.svg" alt="">Github</button>
+                <button class="font-button"> <img src="./assets/icons/HTML.svg" alt="">HTML</button>
+                <button class="font-button"> <img src="./assets/icons/CSS.svg" alt="">CSS</button>
+                <button class="font-button"> <img src="./assets/icons/JavaScript.svg" alt="">JavaScript</button>
+                <button class="font-button"> <img src="./assets/icons/React.svg" alt="">React</button>
+                <button class="font-button"> <img src="./assets/icons/Node.js.svg" alt="">Node.js</button>
+            </div>
+
+            <div id="scroll">
+                <img src="./assets/icons/CaretDoubleDown.svg" alt="Icone de seta para o scroll">
+            </div>
+
         </div>
     </header>
+
+    <main>
+
+        <section class="trabalho bg-work">
+            <div>
+                <div id="title-work">
+                    <h3 class="font-subtitle-red">Meu trabalho</h3>
+                    <h2 class="font-title-md">Veja os projetos em destaque</h2>
+                </div>
+
+                <div class="grid grid-3-cols" id="projetos">
+                    <figure class="cards">
+                        <img src="./assets/images/Thumbnail_Project-01.png" alt="">
+                        <figcaption>
+                            <h3 class="font-title-sm">Travelgram</h3>
+                            <p class="font-txt-sm">Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/images/Thumbnail_Project-02.png" alt="">
+                        <figcaption>
+                            <h3 class="font-title-sm">Tech News</h3>
+                            <p class="font-txt-sm">Homepage de um portal de notícias sobre a área de tecnologia</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/images/Thumbnail_Project-03.png" alt="">
+                        <figcaption>
+                            <h3 class="font-title-sm">Página de Receita</h3>
+                            <p class="font-txt-sm">Página com o passo a passo de uma receita para cupcakes</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/images/Thumbnail_Project-04.png" alt="">
+                        <figcaption>
+                            <h3 class="font-title-sm">Zingen</h3>
+                            <p class="font-txt-sm">Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/images/Thumbnail_Project-05.png" alt="">
+                        <figcaption>
+                            <h3 class="font-title-sm">Refund</h3>
+                            <p class="font-txt-sm">Um sistema para pedido e acompanhamento de reembolso </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="cards">
+                        <img src="./assets/images/Thumbnail_Project-06.png" alt="">
+                        <figcaption>
+                            <h3 class="font-title-sm">Página de turismo</h3>
+                            <p class="font-txt-sm">Página com as principais informações para quem quer viajar para Busan</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="services bg-services">
+            <div id="txt-services">
+                <h3 class="font-subtitle-red">Meus serviços</h3>
+                <h2 class="font-title-md">Como posso ajudar o seu negócio</h2>
+            </div>
+            
+            <div class="services-content grid grid-3-cols">
+                <figure class="cards-services">
+                    <img src="./assets/icons/Devices.svg" alt="Icone de um computador">
+
+                    <figcaption>
+                        <h3 class="font-title-sm">Websites e aplicativos</h3>
+                        <p class="font-txt-sm">Desenvolvimento de interfaces</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="cards-services">
+                    <img src="./assets/icons/HardDrives.svg" alt="Icone de um computador">
+
+                    <figcaption>
+                        <h3 class="font-title-sm">API e Banco de dados</h3>
+                        <p class="font-txt-sm">Criação de serviços do sistema</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="cards-services">
+                    <img src="./assets/icons/Infinity.svg" alt="Icone de um computador">
+
+                    <figcaption>
+                        <h3 class="font-title-sm">DevOps</h3>
+                        <p class="font-txt-sm">Gestão e infraestrutura da aplicação</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+
+        <!-- <section class="footer">
+            <div id="txt-footer">
+                <h3>Contato</h3>
+                <h2>Gostou do meu trabalho?</h2>
+                <p>Entre em contato ou acompanhe as minhas redes sociais!</p>
+            </div>
+
+            <div class="btn-footer">
+                <button><img src="./assets/icons/LinkedinLogo.svg" alt=""></button>
+            </div>
+        </section> -->
+
+    </main>
 </body>
 </html>

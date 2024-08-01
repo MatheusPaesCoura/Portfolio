@@ -1,0 +1,43 @@
+.trabalho{
+    padding-inline: 120px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 144px;
+}
+.trabalho #title-work{
+    text-align: center;
+    padding-block: 72px 56px;
+
+}
+
+.trabalho #title-work h3{
+    color: var(--red);
+    
+}
+
+.trabalho #projetos figcaption{
+    
+    h3{
+        padding-top: 15px;
+    }
+    
+    p{
+        padding-top: 4px
+    }
+}
+
+.services{
+    padding-block: 88px 120px;
+    padding-inline: 120px;
+}
+
+.services #txt-services{
+    text-align: center;
+    padding-bottom: 56px;
+
+}
+
+.services .services-content{
+    display: flex;
+    justify-content: center;
+}

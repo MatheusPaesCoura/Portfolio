@@ -1,0 +1,84 @@
+.font-h1{
+    font: bold 56px/120% var(--font-family-asap);
+    color: var(--gray-600);
+}
+
+.font-subtitle{
+    font: var(--subtitle);
+    color: var(--gray-500);
+}
+
+.font-subtitle-red{
+    font: var(--subtitle);
+    color: var(--red);
+}
+
+.font-title-sm{
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+.font-txt-sm{
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
+
+.font-button{
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
+.bg-work{
+    background-color: var(--gray-200);
+}
+
+.bg-services{
+    background-color: var(--gray-100);
+}
+
+.font-title-md{
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-3-cols{
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+
+}
+
+.cards{
+    padding: 12px;
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+    }
+}
+
+.cards-services{
+    
+    padding: 20px;
+    width: 280px;
+    border: solid 1px var(--gray-200);
+    border-radius: 8px;
+
+    img{
+        padding-bottom: 20px;
+    }
+}
