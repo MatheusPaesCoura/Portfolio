@@ -13,6 +13,11 @@
     color: var(--red);
 }
 
+.font-subtitle-purple{
+    font: var(--subtitle);
+    color: var(--purple);
+}
+
 .font-title-sm{
     font: var(--title-sm);
     color: var(--gray-600);
@@ -23,9 +28,20 @@
     color: var(--gray-400);
 }
 
+.font-txt-md{
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
 .font-button{
     font: var(--text-md);
     color: var(--gray-500);
+}
+
+.font-btn-footer{
+    font: var(--text-md);
+    color: var(--gray-500);
+
 }
 
 .bg-work{
@@ -81,4 +97,36 @@
     img{
         padding-bottom: 20px;
     }
+}
+
+.btn-footer{
+    background-color: var(--gray-300);
+    padding: 20px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+
+
+    img{
+        width: 28px;
+    }
+
+    .end-btn{
+        width: 20px;
+        height: 20px;
+        margin-left: auto;
+        
+    }
+}
+
+.btn-footer:hover{
+    border: solid 1px var(--blue);
+    color: var(--blue);
 }
